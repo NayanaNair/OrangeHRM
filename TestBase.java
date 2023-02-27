@@ -34,11 +34,11 @@ public class TestBase {
 	public static void initialization() {
 			String browserName = prop.getProperty("browser");
 			if(browserName.equals("chrome")) {
-				//System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\Chrome Driver\\chromedriver_win32");
+				//System.setProperty("webdriver.chrome.driver", "D:\ExcelR_Selenium_Sep7\WebMath\src\chromedriver.exe");
 				driver = new ChromeDriver();
 				
 			}else if(browserName.equals("Firefox")) {
-				//System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\Chrome Driver\\geckodriver");
+				//System.setProperty("webdriver.gecko.driver", "D:\ExcelR_Selenium_Sep7\WebMath\src\geckodriver.exe");
 				driver = new FirefoxDriver();	
 			}
 			
